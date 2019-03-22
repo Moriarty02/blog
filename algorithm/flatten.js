@@ -19,6 +19,8 @@ function wrap(){
         return ret
     }
 }
+console.log(wrap()(arr));
+
 /**
  * 这是一个比较取巧的方法
  * 可以利用Array的toString方法将深度的值遍历出来
@@ -40,7 +42,6 @@ function flat2(arr){
 function flat3(arr){
     return arr.flat(true)
 }
-//console.log(wrap()(arr));
+console.log(wrap()(arr));
 //console.log(flat2(arr));
 //console.log(flat3(arr))
-console.log(Object.prototype.toString.call(arr));
