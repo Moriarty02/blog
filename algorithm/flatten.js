@@ -6,9 +6,9 @@ var arr=[1,2,3,[4,5],[6,[7,[8]]]]
  *
  * @returns
  */
-function wrap(){
+function wrap(arr){
     var ret=[];
-    return function flat(a){
+    var flat=function(a){
         for(var item of a){
             if(item.constructor===Array){
                 ret.concat(flat(item))
@@ -16,10 +16,27 @@ function wrap(){
                 ret.push(item)
             }
         }
-        return ret
     }
+    flat(arr);
+    return ret;
+    // return function flat(a){
+    //     for(var item of a){
+    //         if(item.constructor===Array){
+    //             ret.concat(flat(item))
+    //         }else{
+    //             ret.push(item)
+    //         }
+    //     }
+    //     return ret
+    // }
 }
-console.log(wrap()(arr));
+// let flatten=wrap();
+// console.log(flatten(arr));
+// console.log(flatten(arr));
+console.log(wrap(arr));
+console.log(wrap(arr));
+
+
 
 /**
  * 这是一个比较取巧的方法
@@ -42,6 +59,6 @@ function flat2(arr){
 function flat3(arr){
     return arr.flat(true)
 }
-console.log(wrap()(arr));
+//console.log(wrap()(arr));
 //console.log(flat2(arr));
 //console.log(flat3(arr))
