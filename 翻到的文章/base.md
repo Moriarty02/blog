@@ -3,3 +3,5 @@
 3. [UI组件库从0到1开发心得](https://juejin.im/post/5c6504d06fb9a049c6445a25)
 4. [深入实践 ES6 Proxy & Reflect](https://zhuanlan.zhihu.com/p/60126477)
 5. [https://zhuanlan.zhihu.com/p/60324936](https://zhuanlan.zhihu.com/p/60324936)
+6. [除了框架，前端面试还问什么](https://mp.weixin.qq.com/s/E7vDWWuqP_aUIu3b9sThoQ)
+7. [Babel 插件有啥用？](https://zhuanlan.zhihu.com/p/61780633)
