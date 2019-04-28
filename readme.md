@@ -9,6 +9,7 @@
 #### webpack
 1. 最近踩了个坑，关于webpack打包做增量更新时hash很难固定住的问题，周末补上完整记录
 relase: vue-cli的解决方案 [Webpack 4 不完全迁移指北](https://github.com/dwqs/blog/issues/60)
+2. [处理nginx80端口代理localhost:8080的请求 websocket 400的错误](https://github.com/Moriarty02/blog/issues/7)
 #### http
 1. [ 浏览器network里面能看到的信息](https://github.com/Moriarty02/blog/issues/5)
 #### 算法
