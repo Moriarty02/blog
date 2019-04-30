@@ -18,4 +18,5 @@ relase: vue-cli的解决方案 [Webpack 4 不完全迁移指北](https://github.
 3. [去除相邻相同的元素](https://github.com/Moriarty02/blog/issues/3)
 4. [从斐波拉契数列浅尝动态规划（DP）的求解思路 ](https://github.com/Moriarty02/blog/issues/4)
 5. [使用DFS和BFS对百度首页的body进行遍历](https://github.com/Moriarty02/blog/issues/6)
-6. 尾递归和1000万个数字中选出最大的100个
+6. [输出二叉树的右视图](https://github.com/Moriarty02/blog/issues/8)
+7. 尾递归和1000万个数字中选出最大的100个
