@@ -7,3 +7,6 @@ git add .
 git commit -m 'update .gitignore'
 
 ```
+#### git 日常操作
+加入暂存区 git add filename/directory 
+git add . 暂存所有新增文件和修改文件
