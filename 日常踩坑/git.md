@@ -10,3 +10,13 @@ git commit -m 'update .gitignore'
 #### git 日常操作
 加入暂存区 git add filename/directory 
 git add . 暂存所有新增文件和修改文件
+提交暂存到本地库
+git commit -m "message"
+描述可以用''换行
+git commit -m '
+
+1.line one
+
+2.line two
+
+'
