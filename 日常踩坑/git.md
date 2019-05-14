@@ -12,11 +12,9 @@ git commit -m 'update .gitignore'
 git add . 暂存所有新增文件和修改文件
 提交暂存到本地库
 git commit -m "message"
-描述可以用''换行
-git commit -m '
+查看提交记录 
+git log --pretty=oneline
+版本回退
+在Git中，用HEAD表示当前版本，也就是最新的提交1094adb...（注意我的提交ID和你的肯定不一样），上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100
+git reset --hard HEAD
 
-1.line one
-
-2.line two
-
-'
