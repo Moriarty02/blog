@@ -23,21 +23,29 @@ git log --pretty=oneline
 git reset --hard HEAD
 回到指定版本 HEAD换成对应hash
 
-1撤掉
+1. 撤掉
 
-a、如果还没 git add file ，使用该指令进行撤销：  git checkout -- fileName  
+a、如果还没 git add file ，使用该指令进行撤销：  git checkout -- fileName 
+
 b、如果已经git add file  ， 但是没有 git commit -m ""  分两步操作：
 	b-1、git reset HEAD readme.txt
+
 	b-2、git  status
+
 	b-3、git checkout -- file
+
 c、如果已经git add file 并且已经 git commit ,那么回退版本办法是：
+
 	c-1、通过 git log 或者 git log --pretty=oneline 、git reflog
+
 	c-2、找到对应的commit id进行回退：git reset --hard 1094a
 
 
-2、删除
+2. 删除
 
 现在你有两个选择，一是确实要从版本库中删除该文件，那就用命令git rm删掉，并且git commit：
+
 a、git rm test.txt
+
 b、git commit -m "remove test.txt"
 
